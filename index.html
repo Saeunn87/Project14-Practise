@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>project 14</title>
-        <link rel="stylesheet" href="./main.css" />
-        <script src="./main.js" defer></script>
-    </head>
-    <body>
-        <section class="container">
-            <button id="btn">click me</button>
-            <button onclick="anotherFunctionCall()">call another function</button>
-            <button id="button">third button</button>
-        </section>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 14</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./favicon.png">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+        <input id="color" type="color" onchange="colorPicker()">
+
+        <label id="label"></label>
+        <input id="text" type="text">
+        <hr>
+        <input type="text" id="comment">
+        <button id="submit">submit</button>
+        <ul id="list"></ul>
+        <button onclick="addImage()">add image</button>
+        <figure></figure>
+
+        <section id="fruits"></section>
+        <figure id="figure"></figure>
+        <button data-my-btn data-something-else>click here</button>
+    </section>
+</body>
+
 </html>
